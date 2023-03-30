@@ -1,4 +1,4 @@
-
+/* COMMON */
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +7,8 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
-    /* background-color: #F8F5E4; */
 }
 hr{
-    /* margin: auto; */
     border-style: none;
     border-top-style: dotted;
     border-color: #C7E8CA;
@@ -27,15 +25,15 @@ h2{
 h2 , h3{
     color: #11999E;
     font-weight: normal;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 p {
     line-height: 2;
 }
+
 /* TOP */
 .top {
     background-color: #E4F9F5;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     position: relative;
 }
@@ -43,18 +41,14 @@ p {
     font-family: 'Sacramento', cursive;
     font-size: 10vh;
     padding: 0 4px;
-    /* font-size: 3rem; */
 }
 .top h2 {
     padding: 0 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 3vh;
-    /* font-size: 1rem; */
 }
 marquee img {
     margin: 4em 0px;
-    /* margin-bottom: 4em; */
-    /* height: 4vw; */
 }
 #cloud1{
     margin-left: 500px;
@@ -63,7 +57,6 @@ marquee img {
     position: absolute;
     left: 0;
 }
-
 #mountain {
     position: absolute;
     bottom: 0px;
@@ -74,14 +67,12 @@ marquee img {
     height: 50vh;
 }
 
-
+/* MIDDLE */
 .middle-container {
     margin: 100px 0px ;
 }
-
 .profile{
     width: 100rvw;
-    /* height: 80vh; */
 }
 .profile img {
     height: 150px;
@@ -100,37 +91,30 @@ marquee img {
     width: 30%;
     float: left;
     margin-right: 30px;
-    /* padding: 5px 0 0 0 ; */
 }
 .chilli-img{
     width: 27%;
     float: right;
     margin-left: 30px;
-    /* margin-top: 0px; */
 }
 
 .skill {
     width: 100%;
 }
-
 .skill-row{
     width: 50% ;
     margin: 100px auto ;
     
     text-align: left;
 }
-
 .contact-me h2 , .contact-me h3{
     padding: 25px;
 }
 .contact-me p {
     padding: 400px auto 25px ;
 }
-
 .btn {
     display: inline-block;
-    
-    /* padding: 1em ; */
     margin: 30px 0px 15px 0px;
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -147,7 +131,6 @@ marquee img {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
-
 .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -166,7 +149,6 @@ marquee img {
 }
 .bottom-container a:hover{
     color: #134345;
-    
 }
 .bottom-container {
     position: relative;
@@ -177,9 +159,9 @@ marquee img {
 .nme{
     color: #EAF6F6;
     font-size: 0.80rem;
-    /* margin: 0px 0px 10px ; */
 }
 
+/* MEDIA QUERIES */
 @media (min-height: 700px) {
     #mountain {
         position: absolute;
@@ -214,17 +196,12 @@ marquee img {
         width: 47%;
         float: none;
         margin: 0px 49px;
-        /* position: relative; */
-        /* text-align: center; */
-        /* padding: 5px 0 0 0 ; */
     }
     .chilli-img{
         margin: 0px 25px;
         width: 47%;
         float: none;
         margin:0px 51px;
-        /* margin-left: 30px; */
-        /* margin-top: 0px; */
     }
     .skill-row{
         text-align: center;
@@ -237,7 +214,6 @@ marquee img {
     }
     .bottom-container a{
         display: block;
-        /* margin: 5px ; */
         padding: 10px ;
     }
     .bottom-container{
